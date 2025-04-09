@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes gradientBlur {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradientBlur {
+  background-size: 200% 200%;
+  animation: gradientBlur 10s ease infinite;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #3EFFC0, #00B4D8, #3A0CA3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
