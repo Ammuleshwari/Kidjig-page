@@ -23,7 +23,7 @@ const CircleNavbar = () => {
             <div className="bg-black rounded-full p-2 text-xl">{item.icon}</div>
           </div>
 
-          {/* Tooltip */}
+          
           <span className="absolute bottom-[-28px] left-1/2 -translate-x-1/2 text-xs bg-gradient-to-r from-[#3EFFC0] to-[#00f0ff] text-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
             {item.label}
           </span>
