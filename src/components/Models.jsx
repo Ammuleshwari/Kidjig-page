@@ -1,4 +1,4 @@
-// src/components/Models.jsx
+
 import React from "react";
 import { motion } from "framer-motion";
 import { FaBolt, FaCommentAlt, FaImage } from "react-icons/fa";
@@ -81,8 +81,6 @@ const Models = () => {
         >
           Explore Available Models
         </motion.h2>
-
-        {/* Filter buttons */}
         <div className="flex flex-wrap justify-center gap-4 mt-10">
           <motion.button
             whileHover={{ scale: 1.1 }}
@@ -103,8 +101,6 @@ const Models = () => {
             <FaImage className="animate-pulse" /> IMAGE
           </motion.button>
         </div>
-
-        {/* Search bar */}
         <div className="mt-6">
           <input
             type="text"
@@ -113,8 +109,6 @@ const Models = () => {
           />
         </div>
       </div>
-
-      {/* Models Grid */}
       <motion.div
         className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl mx-auto"
         initial="hidden"
