@@ -1,5 +1,4 @@
 import React from "react";
-
 const Navbar = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md shadow-md">
