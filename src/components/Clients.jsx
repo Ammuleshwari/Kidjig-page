@@ -1,5 +1,5 @@
 import React from "react";
-import logos from "../assets/logos"; // make sure this imports an object of logos
+import logos from "../assets/logos"; 
 import { motion } from "framer-motion";
 
 const Clients = () => {
