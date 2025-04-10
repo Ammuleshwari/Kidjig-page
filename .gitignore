@@ -6,13 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-# Dependency directories
 node_modules/
 .pnp/
 .pnp.js
-
-# Build output
 dist/
 dist-ssr/
 build/
@@ -20,16 +16,10 @@ build/
 .next/
 .cache/
 .vite/
-
-# Local environment
 .env.local
 .env.*.local
-
-# Misc
 *.local
 .DS_Store
-
-# Editor settings
 .vscode/
 !.vscode/extensions.json
 .idea/
@@ -39,5 +29,5 @@ build/
 *.sln
 *.sw?
 
-# System files
+# System file
 Thumbs.db
