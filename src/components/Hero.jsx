@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section id="hero" className="w-full min-h-screen flex items-center justify-center bg-black text-white overflow-hidden relative">
-      {/* Gradient animation background */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-blue-900 via-black to-indigo-900 animate-gradientBlur z-0"></div>
 
       <motion.div
@@ -24,8 +23,6 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
           Unify, secure, and scale your enterprise AI infrastructure through a single, powerful gateway. Access and manage multiple AI providers with enterprise-grade security.
         </p>
-
-        {/* CTA Buttons */}
         <div className="flex justify-center items-center gap-4 flex-wrap">
           <motion.button
             whileHover={{ scale: 1.1 }}
