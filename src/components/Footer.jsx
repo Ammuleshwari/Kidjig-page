@@ -12,7 +12,6 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white pt-16 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
-        {/* Left Side */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +25,6 @@ const Footer = () => {
             Building the future of AI Products. Empowering creators and
             developers with powerful AI tools.
           </p>
-          {/* Social Icons */}
           <div className="flex gap-4 mt-6 text-xl">
             <FaTwitter className="hover:text-cyan-400 transition" />
             <FaGithub className="hover:text-gray-400 transition" />
@@ -35,8 +33,6 @@ const Footer = () => {
             <FaDiscord className="hover:text-indigo-400 transition" />
           </div>
         </motion.div>
-
-        {/* Center - Startup Logos */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,8 +51,6 @@ const Footer = () => {
             </div>
           </div>
         </motion.div>
-
-        {/* Right - Legal and Discord */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -69,8 +63,6 @@ const Footer = () => {
               <li className="hover:text-white cursor-pointer">Terms of Service</li>
             </ul>
           </div>
-
-          {/* Discord Card */}
           <div className="bg-[#1a1a1a] p-4 rounded-xl shadow-md border border-gray-700">
             <p className="text-sm font-semibold text-purple-400 mb-2 flex items-center gap-2">
               <span className="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></span>
@@ -85,8 +77,6 @@ const Footer = () => {
           </div>
         </motion.div>
       </div>
-
-      {/* Bottom Text */}
       <div className="text-center text-gray-500 text-sm mt-16 pb-8">
         © 2025 Kidjig. All rights reserved.
       </div>
